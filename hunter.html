@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Finding game</title>
+
+  <style>
+    /* Add your styles here */
+    header {
+      background-color:red;
+      color: black;
+      padding: 10px;
+      text-align: center;
+      text-decoration: underline;
+    }
+    .main {
+      padding: 20px;
+      text-align: center;
+      
+    }
+    #bushes{
+      margin-top: 20px;
+      font-weight: bold;  
+      text-align: center;
+      
+    }
+    #penalty {
+      margin-top: 20px;
+      font-weight: bold;
+      text-align: center;
+    }  
+    #help {
+      margin-top: 20px;
+      display: none;
+      text-align: center;
+    
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Find the mouse by Rama Krishna Reddy Boggula.</h1>
+  </header>
+  <main>
+    <p class="main">Click on the bushes to search for the mouse, beware the cat.</p>
+    <div id="bushes">Number of bushes checked is zero.</div>
+    <div id="penalty">Penalty is zero.</div>
+    <p style="text-align: center;">Click for help</p>
+    <div id="help">
+      <h2>Help report</h2>
+      <p>If you find the mouse, your score will increase by 10 points. If you click on the cat, your score will decrease by 5 points.</p>
+      <p>The game ends when you find the mouse or when you have clicked on 10 bushes.</p>
+    </div>
+  </main>
+  <script>
+    // Add your JavaScript code here
+    const helpBtn = document.querySelector('p:nth-of-type(2)');
+    const helpReport = document.querySelector('#help');
+
+    helpBtn.addEventListener('click', () => {
+      helpReport.style.display = 'block';
+    });
+  </script>
+</body>
+</html>
