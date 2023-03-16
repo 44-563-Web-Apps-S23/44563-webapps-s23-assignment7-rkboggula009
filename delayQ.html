@@ -50,7 +50,7 @@
         <br>
 	    <input class="btn" type="button" value="Get" onclick="get()">
 	    <input class = "btn" type="button" value="Delay" onclick = "delay()">
-        <input class = "btn" type="button" value="Promote" onclick = "promote()">
+        
 
 	
 <script>
@@ -88,15 +88,15 @@
 				container_div.insertBefore(removedItem,container_div.firstChild)
 			}
 	}
-    function promote(){
+    /*function promote(){
             let queueItems = document.getElementsByClassName("delayQ")
             let length_elements = queueItems.length
             let num = Math.floor(Math.random()* length_elements)
             let randNum = queueItems[num]
 			randNum.parentNode.insertBefore(randNum,randNum.parentNode.firstChild)
 
-        
-    }
+        <input class = "btn" type="button" value="Promote" onclick = "promote()">
+    }*/
 </script>
 </body>
 </html>

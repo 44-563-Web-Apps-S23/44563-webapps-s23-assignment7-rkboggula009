@@ -29,17 +29,15 @@
   <script> 
   let reactTime = undefined;
 
-  function randCount(){
-			let num = Math.floor(Math.random()*9 ) + 2;
-			return num;
-  }
+  
+  
 
   function recordTime(){
 	reactTime = Date.now();
 	console.log("React button pressed time: " + reactTime)
     }
   function startTime(){
-    let startCount = randCount()
+   
     for (let i = 0; i < startCount; i++){
         setTimeout(function(){
             console.log("Values after " + i)
@@ -61,3 +59,9 @@
 
   </body>
   </html>
+  <!--function randCount(){
+    let num = Math.floor(Math.random()*9 ) + 2;
+    return num;
+  } 
+  let startCount = randCount()
+-->
