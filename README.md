@@ -3,6 +3,8 @@ An assignment on java script modifying the DOM and using anonymous callback func
 
 Hoasted at:
 
-hunter.html:file:///C:/Users/s559309/Desktop/webapps-repos/44563-webapps-s23-assignment7-rkboggula009/hunter.html
-react.html:file:///C:/Users/s559309/Desktop/webapps-repos/44563-webapps-s23-assignment7-rkboggula009/react.html
-delayQ.html:file:///C:/Users/s559309/Desktop/webapps-repos/44563-webapps-s23-assignment7-rkboggula009/delayQ.html
+hunter.html:https://github.com/44-563-Web-Apps-S23/44563-webapps-s23-assignment7-rkboggula009/blob/main/hunter.html
+
+react.html:https://github.com/44-563-Web-Apps-S23/44563-webapps-s23-assignment7-rkboggula009/blob/main/react.html
+
+delayQ.html:https://github.com/44-563-Web-Apps-S23/44563-webapps-s23-assignment7-rkboggula009/blob/main/delayQ.html
